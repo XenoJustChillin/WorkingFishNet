@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+}
+
+.main {
+    background-color: black;
+}
+
+.header {
+    padding:24px;
+}
+
+.nav {
+    display:flex;
+    justify-content:right;
+}
+
+.productCard {
+    padding:24px;
+    width:60vh;
+}
+
+
+
+.mostBooked {
+    border: 1px solid pink;
+    display: inline-block;
+    padding:5px 5px 5px 0;
+    border-radius:10px;
+    color: pink;
+}
+
+.price {
+    background-color:#b74bcc;
+    color:white;
+    padding:8px;
+    text-align:center;
+    border-radius:10px;
+    font-size:18px;
+}
+
+
+.timeSpan {
+    opacity:0.8;
+    padding:8px 0;
+}
+
+.bookNow {
+    width:100%;
+    color:white;
+    background-color:#b74bcc;
+    border:none;
+    padding:8px;
+    border-radius:8px;
+    transition:0.2s;
+}
+
+.bookNow:hover {
+    color:white;
+    background-color:pink
+}
