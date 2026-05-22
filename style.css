@@ -1,0 +1,90 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container {
+    width:100%;
+    height:auto
+}
+
+/*NAV CSS*/
+.nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 24px 16px;
+    background-color:red;
+}
+
+.hamBox {
+    max-width:50px;
+    height:auto
+}
+
+.hamBox > img {
+    width:100%;
+    height:auto;
+}
+
+.openedHam {
+    position:fixed;
+    top:0;
+    right:-310px;
+    height:100vh;
+    width:300px;
+    background-color:grey;
+    transition:0.3s
+}
+
+.openedHamBox {
+    padding-left:240px;
+    padding-top:24px;
+}
+
+.navList {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
+    padding-left:16px;
+}
+
+.navList .DTnav > a{
+    padding:16px 0;
+    font-size:1.25rem;
+    text-decoration:none;
+    color:white;
+    transition: 0.3s
+}
+
+.navList .DTnav > a:hover {
+    font-size:1.3rem;
+    cursor:pointer;
+    color:aqua;
+}
+
+.DTnav {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:24px;
+}
+
+
+
+/*NAV CSS END*/
+
+@media screen and (min-width: 780px) {
+  .MBnav {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .DTnav {
+    display:none;
+  }
+}
